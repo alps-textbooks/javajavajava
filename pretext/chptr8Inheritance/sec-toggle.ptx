@@ -190,7 +190,7 @@ public class ToggleButton extends JButton
       <p>The following program has an error in it. It's supposed to swap var1 in var2. 
         First run it to see the error. Then fix the error and run it again.
       </p>
-    <program language="java" interactive=""><input>
+    <program language="java" interactive="activecode"><input>
       public class Swap {
         public static void main(String args[]) {
           String var1 = "on", var2 = "off";
