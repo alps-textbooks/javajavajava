@@ -50,7 +50,7 @@
   <subsection>
     <title>Editing a Program</title>
     <p>
-      Any text editor can be used to edit a Java program. Online development environments like <url href="replit.com" visual="">replit.com</url> are very popular.
+      Any text editor can be used to edit a Java program. Online development environments are very popular.
       <url href="https://code.visualstudio.com/download" visual="">VSCode</url> is a popular code editor that is available for Windows, Macs, and Linux systems.
       Popular Linux editors include <c>vim</c> and <c>emacs</c>, which are also available on macOS and Windows.
       Free macOS editors include <url href="https://www.barebones.com/products/bbedit/index.html" visual="">BBEdit</url> 

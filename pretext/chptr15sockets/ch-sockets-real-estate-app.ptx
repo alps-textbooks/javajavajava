@@ -569,14 +569,6 @@ private void readTextIntoDisplay(URL url) throws IOException {
 </listing>
 
 
-<activity><statement><p>Try the Real Estate App below. Pull down the menu to try different 
-  choices. 
-  <interactive iframe="iframe/repl-real-estate-app.html" width="100%" aspect="1:1"/>
-  </p></statement>
-  </activity>
-
-
-
   </subsection>
   <subsection>
     <title>Reusing Code</title>
@@ -612,10 +604,10 @@ private void readTextIntoDisplay(URL url) throws IOException {
   
        
       <exercise label="createAppEx"><title>Create Your Own App</title><statement>
-        <p>Fork the repl below to create your own app for the Real Estate domain or another domain of your choice
+        <p>Copy the <c>RealEstateViewer</c> and <c>ImagePanel</c> classes above into your own Java development environment to create your own app for the Real Estate domain or another domain of your choice
           where you want to display images and text.
-          Add your own images and text files by uploading them into your repl. 
-          You can change the code to use local files in the repl instead of a URL with the 
+          Add your own images and text files to your project. 
+          You can change the code to use local files in your project instead of a URL with the 
           following code in the loop 
           to read in the images in <c>initHomeChoices()</c>: 
           <program language="java"><input>
@@ -631,15 +623,7 @@ private void readTextIntoDisplay(URL url) throws IOException {
             currentImage = ImageIO.read(imageFile);
         </input></program>
         </p>
-        <interactive iframe="iframe/repl-real-estate-app.html" width="100%" aspect="1:1"/>
       </statement>
-      <solution>
-         <p>See possible solution:
-          <url href="https://replit.com/@BerylHoffman/Real-Estate-App-with-files" visual="">
-            https://replit.com/@BerylHoffman/Real-Estate-App-with-files
-          </url>
-        </p>
-      </solution>
         </exercise>
   </subsection>
 </section>

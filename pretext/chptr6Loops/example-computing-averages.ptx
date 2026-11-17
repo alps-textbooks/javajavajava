@@ -163,9 +163,7 @@ public double inputAndAverageGrades() {
 
   <activity label="average1"><title>Average</title><statement>
   <p>
-    The complete <c>Average.java</c> application is shown in <xref ref="fig-avg">Listing</xref> or
- at  
-      <url href="https://replit.com/@BerylHoffman/Average-1" visual="" target="_blank">Average on repl</url>. 
+    The complete <c>Average.java</c> application is shown in <xref ref="fig-avg">Listing</xref>.
     <!-- Its overall design is similar to application programs we designed in previous chapters.
     The only instance variable it uses is the <c>KeyboardReader</c> variable.
     The other variables are declared locally, within the methods.
@@ -213,8 +211,7 @@ public class Average {                            // Console I/O
 } // Average
  </input></program>
 </listing>
-Try it below. </p>
-    <interactive iframe="iframe/repl-average.html" width="100%" aspect="1:1"/>
+</p>
 </statement>
 </activity>
   <p>

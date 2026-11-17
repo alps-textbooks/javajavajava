@@ -104,13 +104,4 @@ public class Validate {                            // Console input
 } // Validate
  </input></program>
 </listing>
-<activity label="validate"><title>Validate</title><statement>
-<p>
-  Try this program below or online at  
-      <url href="https://replit.com/@BerylHoffman/Validate" visual="" target="_blank">Validate on repl</url>. 
-      <interactive iframe="iframe/repl-validate.html" width="100%" aspect="1:1"/>
-
-    </p>
-</statement>
-</activity>
 </section>

@@ -524,7 +524,7 @@ public class GreeterApp
  The computer generates a random number between 1 and 100 and then lets the user guess the number,
  telling the user when the guess is too high or too low.
  Note that for this problem, the user will have to input integers at the keyboard, 
- so you will have to use a development environment with user input possible, like replit. 
+ so you will have to use a development environment with user input possible.
  Paste your code or the link to your code here to turn in.
           </p>
           </statement>

@@ -197,11 +197,10 @@ setLayout(new GridLayout(4,3,1,1));
       </p>
     </principle>
     <activity>
-     <statement> <p>Try the Metric Converter with KeyPad below. Fork the repl and change 
-      the code in KeyPad.java to add the line above to the KeyPad() constructor to change the layout to GridLayout.
+     <statement> <p>In your own Java development environment, change 
+      the code in KeyPad.java (<xref ref="listing-keypad">Listing</xref>) to add the line above to the KeyPad() constructor to change the layout to GridLayout.
       Try different numbers in the GridLayout to create a different number of rows and columns.
      </p>
-    <interactive iframe="iframe/repl-metricConverterWithKeyPad.html" width="100%" aspect="1:1"/>
   </statement>  
   </activity>
 
@@ -387,17 +386,12 @@ public Converter() {
     <subsection><title>Self-Study Exercises</title>
       
       <exercise label="converter-border-Ex"> <title>Converter with BorderLayout</title>
-        <statement> <p>Try the Metric Converter with KeyPad in FlowLayout below. 
-          Fork the repl and change the code in KeyPad.java to add the GridLayout (as written in the GridLayout section above) to the KeyPad() constructor to change the layout to GridLayout.
+        <statement> <p>In your own Java development environment, start from the Metric Converter with KeyPad in FlowLayout (<xref ref="listing-keypad">Listing</xref> and <xref ref="listing-convertclass2">Listing</xref>). 
+          Change the code in KeyPad.java to add the GridLayout (as written in the GridLayout section above) to the KeyPad() constructor to change the layout to GridLayout.
           Change the Converter() constructor in Converter.java to the code above to use BorderLayout and JPanels.          
          </p>
-        <interactive iframe="iframe/repl-metricConverterWithKeyPad.html" width="100%" aspect="1:1"/>
         </statement>
-      <solution>
-        <p>A possible solution is at:
-        <url href="https://replit.com/@BerylHoffman/MetricConverterWithKeypadBorderLayout#Converter.java" visual="">https://replit.com/@BerylHoffman/MetricConverterWithKeypadBorderLayout#Converter.java</url>
-        </p>
-      </solution></exercise>
+      </exercise>
 
   
       <exercise label="borderEx"><title>BorderLayout</title>

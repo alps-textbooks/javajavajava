@@ -325,10 +325,6 @@ public class TestOneRowNim {
       Run the code multiple times and enter 1, 2, or 3. Can you figure 
       out a winning strategy?   
     </p>
-     <interactive iframe="iframe/repl-iframe.html" width="95%" aspect="1:1"/>
-    <!--  You can try this code here: <url href="https://replit.com/@BerylHoffman/OneRowNim3" 
-        visual="" target="_blank">OneRowNim.java on repl</url>. 
-      -->
   </statement>
 
 </activity>

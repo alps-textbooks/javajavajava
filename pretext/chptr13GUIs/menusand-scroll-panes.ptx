@@ -124,9 +124,8 @@ private void initFileMenu() {
     </p>
 
     <activity>
-      <statement> <p>Try the File Menu below. Fork the repl and add another menu item to the File Menu. 
+      <statement> <p>Using the <c>initFileMenu()</c> code above in your own Java development environment, add another menu item to the File Menu. 
         Add code to the actionPerformed method to print out the command selected.   </p>
-     <interactive iframe="iframe/repl-FileMenu.html" width="100%" aspect="1:1"/>
    </statement>  
    </activity>
   </subsection>
@@ -198,9 +197,8 @@ private void initEditMenu() {
     </p>
 
     <activity>
-      <statement> <p>Fork the FileMenu repl below or use the fork from the previous activity, 
+      <statement> <p>Use your File Menu program from the previous activity 
         to add the Edit menu.  </p>
-     <interactive iframe="iframe/repl-FileMenu.html" width="100%" aspect="1:1"/>
    </statement>  
    </activity>
   </subsection>
@@ -334,15 +332,6 @@ private void addRecentCut(String cut) {
       </subsubsection>
       </subsection>
       <subsection><title>The SimpleTextEditor Implementation</title>
-      <activity>
-        <statement> <p>Try the SimpleTextEditor Edit menu below.  </p>
-       <interactive iframe="iframe/repl-SimpleTextEditor.html" width="100%" aspect="1:1"/>
-     </statement>  
-     </activity>
-   
-
-    
- 
     <p>
       The design of the <c>SimpleTextEditor</c> class is summarized in 
       <xref ref="fig-p514f1">Figure</xref>
@@ -504,7 +493,7 @@ public JScrollPane(Component comp, int vsbPolicy,
         <exercise label="limitCutsEx"><title>Limit Cuts</title>
           <statement>
           <p>
-          Fork the <url href="https://replit.com/@BerylHoffman/SimpleTextEditor" visual="">https://replit.com/@BerylHoffman/SimpleTextEditor</url>.
+          Copy the <c>SimpleTextEditor</c> code (<xref ref="listing-texteditor">Listing</xref>) into your own Java development environment.
            Modify the <c>addRecentCut()</c> method so it limits the cuts stored in the 
             ArrayList to the last ten cuts.
           </p>
@@ -537,7 +526,7 @@ public JScrollPane(Component comp, int vsbPolicy,
           <exercise label="noduplicateCutsEx"><title>No Duplicate Cuts</title>
             <statement>
               <p>
-            In your fork above, modify the <c>addRecentCut()</c> method so that it doesn't duplicate 
+            In your copy above, modify the <c>addRecentCut()</c> method so that it doesn't duplicate 
             cuts already stored in the ArrayList.
             </p></statement>
             <hint><p> Use the
@@ -573,7 +562,7 @@ for (int k = 0; k &lt; recentCuts.size(); k++) {
           <exercise label="fileEx"><title>FileMenu Actions</title>
             <statement>
               <p>
-            In your fork above, implement the actions for the File menu class to save the text into a file.
+            In your copy above, implement the actions for the File menu class to save the text into a file.
             </p></statement>
             
 <solution>

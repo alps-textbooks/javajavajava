@@ -883,10 +883,9 @@ public void actionPerformed(ActionEvent evt) {
   <activity>
 <title>TextIO application</title>
 <statement>
-<p>Try running the <c>TextIO</c> program in <url href="https://replit.com/@RalphMorelli/TextIO#Main.java">replit</url>. 
-As an input file you can use <c>Testfile.txt</c>, which is provided. Try making some edits and the saving (i.e., writing) and 
+<p>Try running the <c>TextIO</c> program in your own Java development environment.
+As an input file you can use any text file. Try making some edits and the saving (i.e., writing) and
 then reopening the file to see that your edits are saved.
-<!-- <interactive iframe="iframe/repl-textio.html" width="95%" aspect="1:1"/> -->
 </p>
 </statement>
   </activity>

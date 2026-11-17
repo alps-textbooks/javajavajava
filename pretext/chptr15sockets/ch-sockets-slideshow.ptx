@@ -366,38 +366,23 @@ public class Timer implements Runnable {
  </input></program>
     </listing>
   
-    <activity>
-      <statement>
-      <p>Try the SlideShow program below on replit.</p>
-      <interactive iframe="iframe/repl-slideshow1.html" width="100%" aspect="1:1"/>
--</statement>
-    </activity>
-
     <exercises>
     <title>Self-Study Exercise</title>
      
     <exercise label="slideshowEx"><title>Create Your Own Slideshow</title><statement>
-      <p>Fork the repl below to create your own slideshow or animation. 
-        Add your own images by uploading them into your repl. Make sure you rename them to be 
-        numbered consecutively. You can change the code to use local files in the repl 
+      <p>Copy the <c>SlideShowFrame</c> and <c>Timer</c> classes above into your own Java development environment to create your own slideshow or animation. 
+        Add your own images to your project. Make sure you rename them to be 
+        numbered consecutively. You can change the code to use local files in your project 
         instead of a URL with the following code in the loop 
         to read in the images in <c>SlideShowFrame()</c> constructor:
         <program language="java"><input>
-          // Use File for local file in replit project instead of URL
+          // Use File for local file in your project instead of URL
           File imageFile = new File("image" + k + ".jpg");  
           slide[k] = ImageIO.read(imageFile);
         </input></program>
         You can change the Timer sleep amount to control the speed of the animation.
       </p>
-      <interactive iframe="iframe/repl-slideshow1.html" width="100%" aspect="1:1"/>
-      <!-- <interactive iframe="iframe/repl-slideshow-local-files.html" width="100%" aspect="1:1"/> -->
     </statement>
-    <solution>
-      <p>See possible solution:
-      <url href="https://replit.com/@BerylHoffman/SlideShowWithFiles" visual="">https://replit.com/@BerylHoffman/SlideShowWithFiles
-      </url>
-    </p>
-    </solution>
       </exercise>
 
     <exercise label="designSound"><title>Design Soundtrack</title><statement>

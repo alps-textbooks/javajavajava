@@ -340,10 +340,6 @@ public class SimpleGUI extends JFrame
         </li>
       </ul>
     </p>
-   <p>Try the <c>GreeterGUI</c> program below.</p>
-
-   <interactive iframe="iframe/repl-greeterGUI-simple.html" width="100%" aspect="1:1"/>
-
     <p>
       <xref ref="fig-constructors">Figure</xref>
       shows some of the constructors and public methods for the <c>JTextArea</c>, 
@@ -906,10 +902,9 @@ public class Main
             An <c>ActionEvent</c> is generated whenever the user presses the Return or Enter key in a
 <c>JTextField</c>.
             Of course, it will be necessary to designate the <c>inField</c> as an <c>ActionListener</c> in order to take advantage of this feature.
-            Fork the following repl to make the appropriate changes so that the <c>inField</c> can function as both a 
+            Make the appropriate changes to the <c>GreeterGUI</c> code above so that the <c>inField</c> can function as both a 
             control and input element. Also, change the welcome message.
           </p>
-          <interactive iframe="iframe/repl-greeterGUI-simple.html" width="100%" aspect="1:1"/>
           </statement>
           <solution>
             <p>

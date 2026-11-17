@@ -578,18 +578,6 @@ Next turn by player 2
  </input></program>
 
 
-  <activity label="onerownim1">
-    <statement>
-<p>You can try this version of Nim in action below.  Look at files at 
-<url href="https://replit.com/@BerylHoffman/OneRowNim1" visual="" target="_blank">OneRowNim.java on repl</url> to see the OneRowNim class code.
-Run the following code multiple times and enter 1, 2, or 3. 
- </p>
- 
- <interactive iframe="iframe/repl-onerownim1.html" width="100%" aspect="1:1"/>
-</statement>
-</activity> 
-
-
       </subsection>
 
       <exercises><title>Self-Study Exercises</title>

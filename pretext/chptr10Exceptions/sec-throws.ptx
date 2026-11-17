@@ -205,12 +205,6 @@ public class IntFieldTester extends JPanel
   
  
   
-  <activity>
-    <statement> <p>Try the IntField class below by entering the invalid values of 101 and 3.5.</p>
-  <interactive iframe="iframe/repl-intField.html" width="95%" aspect="1:1"/>
-</statement>
-</activity>
-
   <exercises><title>Self-Study Exercises</title>
    
     <exercise label="fieldEmpty"><title>FieldIsEmptyException</title>
@@ -257,12 +251,10 @@ public class FieldIsEmptyException extends Exception {
         <exercise label="getIntEx"><title>IntField.getInt()</title>
           <statement>
         <p>
-          Fork the repl project below. Modify the <c>IntField.getInt()</c> method so that it throws and catches the 
+          Modify the <c>IntField.getInt()</c> method so that it throws and catches the 
           <c>FieldIsEmptyException</c> (copied from your solution above).
         </p>
    
-         <interactive iframe="iframe/repl-intField.html" width="95%" aspect="1:1"/>
- 
   </statement>
     <solution>
       <p>

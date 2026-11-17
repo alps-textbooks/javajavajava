@@ -562,8 +562,5 @@ public static void main(String args[]) {
       You know enough now about object-oriented design principles to recognize 
       that the use of <c>play()</c> in this context is an example of polymorphism.
     </p>
-    <activity><statement>Try the WordGuess Game below. Click on Files to see the code.
-      <interactive iframe="iframe/repl-iframe-wordguess-ch9.html" width="95%" aspect="1:1"/>
-    </statement></activity>
   </subsection>
 </section>

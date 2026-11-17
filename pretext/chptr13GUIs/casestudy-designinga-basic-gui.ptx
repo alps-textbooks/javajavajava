@@ -271,11 +271,6 @@ public class Converter extends JFrame
  </input></program>
 </listing>
 
-<p>Try the converter below.</p>
-
-<interactive iframe="iframe/repl-metricConverter.html" width="100%" aspect="1:1"/>
-
-
 <p>
         We do all initializing tasks in the constructor.
         First, we  set the <c>JFrame</c>'s layout to <c>FlowLayout</c>. 
@@ -875,9 +870,6 @@ public class Converter extends JFrame   // Version 2
 } // Converter
  </input></program>
     </listing>
-
-    <p>Try the Metric Converter with KeyPad below.</p>
-    <interactive iframe="iframe/repl-metricConverterWithKeyPad.html" width="100%" aspect="1:1"/>
 
   </subsection>
 

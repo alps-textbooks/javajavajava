@@ -153,10 +153,9 @@ options[0].setSelected(true); // Set first button 'on'
     </figure>
 
     <activity>
-      <statement> <p>Try the Checkbox Choices app below. Fork the repl and change 
+      <statement> <p>In your own Java development environment, create a Choices.java app with the checkboxes above and change 
        the code in Choices.java to add the RadioButtons using the code above.
           </p>
-     <interactive iframe="iframe/repl-Choices.html" width="100%" aspect="1:1"/>
    </statement>  
    </activity>
     <p>
@@ -341,11 +340,10 @@ getItem();  // Returns a menu item within a menu
     </p>
 
     <activity>
-      <statement> <p>Fork the Checkbox Choices app below or use the repl that you forked in the previous activity.
+      <statement> <p>Use your Choices.java app from the previous activity.
        Change 
        the code in Choices.java to add <c>extends ItemListener</c> to the class and to add an <c>itemStateChanged()</c> method for the checkboxes using the code above.
           </p>
-     <interactive iframe="iframe/repl-Choices.html" width="100%" aspect="1:1"/>
    </statement>  
    </activity>
   </subsection>
@@ -354,13 +352,7 @@ getItem();  // Returns a menu item within a menu
     <p>
       The design of the <c>OrderApp</c> is summarized in <xref ref="fig-acmegui2">Figure</xref>
       and its complete implementation is given in 
-      <xref ref="listing-orderapp">Listing</xref>. Try it in the activity below.
-      <activity>
-        <statement> <p>Try the OrderApp below.    </p>
-       <interactive iframe="iframe/repl-orderApp.html" width="100%" aspect="1:1"/>
-     </statement>  
-     </activity>
-      
+      <xref ref="listing-orderapp">Listing</xref>.
       There are several important points to make about this program.
       First, five <c>JPanel</c>s are used to organize the components into logical and visual groupings.
       This conforms to the design shown in <xref ref="fig-acmegui2">Figure</xref>.
