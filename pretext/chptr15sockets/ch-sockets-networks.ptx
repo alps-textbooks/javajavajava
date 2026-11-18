@@ -465,7 +465,7 @@ George.W.Bush@mail.whitehouse.gov
     </p>
   </subsection>
   <subsection>
-    <title>The <c>java.net</c>Package</title>
+    <title>The <c>java.net</c> Package</title>
     <figure xml:id="fig-ipprotocol">
       <caption>Routers between individual networks use the
       IP protocol to translate one network protocol to another.</caption>
