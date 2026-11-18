@@ -169,9 +169,9 @@
             <idx><h>protocol</h></idx>
         is a set of rules that governs the communication of information.
         For example,
-        the <term>World Wide Web </term>is based on the <term>HyperText</term>
+        the <term>World Wide Web</term> is based on the <term>HyperText</term>
         <term>Transfer Protocol (HTTP)</term>.
-        HTTP describes how information isto be exchanged between a Web browser,
+        HTTP describes how information is to be exchanged between a Web browser,
         such as Internet Explorer or  Netscape Navigator,
         and a Web server,
         which stores an individual's or company's Web pages.
@@ -437,7 +437,7 @@ George.W.Bush@mail.whitehouse.gov
       such as the <term>ethernet protocol</term>
           <idx><h>ethernet protocol</h></idx>
       and <term>token ring protocol</term>,
-      that govern the delivery of packets ofinformation on a local area network.
+      that govern the delivery of packets of information on a local area network.
       These too may be built right into the network hardware.
     </p>
     <p>
