@@ -1079,7 +1079,7 @@ public class Bakery {
         TakeANumber numberGadget = new TakeANumber();
         Clerk clerk = new Clerk(numberGadget);
         clerk.start();
-        for (int k = 0; k %lt; 5; k++) {
+        for (int k = 0; k &lt; 5; k++) {
             Customer customer = new Customer(numberGadget);
             customer.start();
         }
@@ -1132,7 +1132,7 @@ class Clerk extends Thread {
     } // run()
 } // Clerk
 
-public class Customer extends Thread {
+class Customer extends Thread {
     private static int number = 10000; // Initial ID number
     private int id;
     private TakeANumber takeANumber;
